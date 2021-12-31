@@ -1,0 +1,157 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gymkhana IIITDM Jabalpur</title>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="slideimg.css">
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+
+<ul class="side">
+<li><a href="BitByte.html">Bit Byte</a></li>
+<li><a href="Astronomy.html">Astronomy</a></li>
+<li><a href="Electronics.html">Electronics</a></li>
+<li><a href="BMC.html">Business and Management</a></li>
+<li><a href="CAD.html">CAD</a></li>
+<li><a href="AF.html">Automotive and Fabrication</a></li>
+<li><a href="Shutterbox.html">Shutterbox</a></li>
+<li><a class="active" href="Robotics.html">Robotics</a></li>
+<li><a href="Racing.html">Racing</a></li>
+</ul>
+
+
+<div style="margin-left:207px; margin-top:108px; padding:1px 16px; height:auto;">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="photo/technical/robotics1.jpg" style="width:100%; height: 250px;">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="photo/technical/robotics2.jpg" style="width:100%; height: 250px;">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="photo/technical/robotics3.jpg" style="width:100%; height: 250px;">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script src="slideimg.js"></script>
+
+<u><h1 class="head">Robotics CLub</h1></u>
+
+<br><h2> Robotics Club is a Technical Club.</h2>
+
+In this modern era, maximum work will be performed by machines without even ordering them, all of them will be working on algorithms. 
+In this club you will be learning about electronics and robotics. If you are  robotics enthusiastic then welcome we are here for you.
+
+
+
+<h3>Club Equipments:-</h3><ol>
+<li>Electronic lab</li><br>
+<li>All electric machines</li><br>
+<li>Tutorial</li><br>
+<li>Bootcamp Sessions</li><br></ol>
+
+
+<h3>Benefits:-</h3><ol>
+<li>You can interact with seniors </li><br>
+<li>Learn basic about Machine learning</li><br>
+<li>A life time memory</li><br>
+<li>Get to know about </li><br>
+<li>Competitions and trips</li><br>
+<li>Awards and many certificate</li><br></ol>
+
+
+
+
+<center><h2>Register for this club</h2>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="register">Register</button>
+</center>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="Robotics_reg.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	<h2><u>Robotics Club</u></h2>
+    </div>
+
+    <div class="container">
+      <label for="roll_no"><b>Roll_No.</b></label>
+      <input type="text" placeholder="2019130" name="roll_no" required>
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+      <label for="DATE"><b>Date of Registration</b></label>
+      <input type="date" name="DATE" required>
+
+      <label for="mobile"><b>Mobile No.</b></label>
+      <input type="text" placeholder="9876543210" name="mobile" required>
+
+      <label for="address"><b>Address</b></label>
+      <input type="text" placeholder="Patna, Bihar" name="address" required>
+
+      <label for="email_id"><b>Email id</b></label>
+      <input type="email" placeholder="123@gmail.com" name="email_id" required>
+
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+	<button type="submit" class="submit">Register</button>
+      <button type="button" onclick="alert('Are you sure to cancel registration?'), document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+</script>
+
+
+
+
+</div>
+
+<div class="top">
+<a href= https://www.iiitdmj.ac.in/ target= blank><img src="https://www.iiitdmj.ac.in/img/title14.jpg" alt="IIITDM Jabalpur" height="60px" width=100%></a>
+<hr style="height:2px;border-width:0;color:gray;background-color:white; margin-top:0px; margin-bottom:0px;">
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="News.html">News</a></li>
+<li class="dropdown">
+ <a class="active">Clubs</a>
+    <div class="dropdown-content">
+      <a href="Sports.html">Sports</a>
+      <a href="Cultural.html">Cultural</a>
+      <a href="Technical.html">Technical</a>
+    </div>
+</li>
+<li style="float: right;"><a href="admin.php">Admin_Login</a></li>
+</ul>
+</div>
+
+</body>
+</html>
